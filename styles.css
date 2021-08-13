@@ -11,6 +11,9 @@
     outline-width: thick;
     background-color: lightseagreen
 }
+.menu {
+    width: 300px;
+}
 
 .content {
     max-width: 900px;
@@ -22,8 +25,15 @@
 }
 
 
+.bullets {
+    list-style: circle;
+    color: lightseagreen
+    padding: 10px;
+    margin: 10px;
+}
+
 a:link {
-    color: lightyellow;    
+    color: lightseagreen;    
 }
 
 a:active {
@@ -31,7 +41,7 @@ a:active {
 }
 
 a:visited {
-    color: lightyellow;
+    color: lightseagreen;
 }
 
 a:hover {
@@ -51,8 +61,8 @@ a:hover {
 
 .foods {
     font: 14px;
-    color: white;
-    background-color: black;
+    color: black;
+    background-color: white;
     padding: 10px;
     text-align: left;
 }
@@ -85,7 +95,7 @@ a:hover {
 }
 
 .landscape {
-    width: 750px;
+    width: 868px;
     max-width: 100%;  
     display: block;
     margin-left: auto;
