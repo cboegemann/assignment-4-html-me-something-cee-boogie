@@ -11,9 +11,6 @@
     outline-width: thick;
     background-color: lightseagreen
 }
-.menu {
-    width: 300px;
-}
 
 .content {
     max-width: 900px;
@@ -27,25 +24,29 @@
 
 .bullets {
     list-style: circle;
-    color: lightseagreen
+    color: lightseagreen;
     padding: 10px;
     margin: 10px;
 }
 
 a:link {
-    color: lightseagreen;    
-}
-
-a:active {
-    color: pink;
+    color: lightseagreen;
+    text-decoration: none;  
 }
 
 a:visited {
     color: lightseagreen;
+    text-decoration: none;  
 }
 
 a:hover {
     color: lightsalmon;
+    text-decoration: none;  
+}
+
+a:active {
+    color: pink;
+    text-decoration: none;  
 }
     
 #title {
@@ -63,8 +64,11 @@ a:hover {
     font: 14px;
     color: black;
     background-color: white;
-    padding: 10px;
     text-align: left;
+}
+
+.menu {
+    width: 300px;
 }
 
 .table {
