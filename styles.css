@@ -1,1 +1,111 @@
-/* Write your CSS here! */
+.all {
+    background-color: pink;
+}
+
+.frame {
+    max-width: 1000px;
+    margin: auto;
+    border: 3px solid lightsalmon;
+    outline-style: solid;
+    outline-color: lightyellow;
+    outline-width: thick;
+    background-color: lightseagreen
+}
+
+.content {
+    max-width: 900px;
+    margin: auto;
+    font: 18px Georgia, serif;
+    color: black;
+    background-color: white;
+    padding: 20px;
+}
+
+
+.bullets {
+    list-style: circle;
+    color: lightseagreen;
+    padding: 10px;
+    margin: 10px;
+}
+
+a:link {
+    color: lightseagreen;
+    text-decoration: none;  
+}
+
+a:visited {
+    color: lightseagreen;
+    text-decoration: none;  
+}
+
+a:hover {
+    color: lightsalmon;
+    text-decoration: none;  
+}
+
+a:active {
+    color: pink;
+    text-decoration: none;  
+}
+    
+#title {
+    color: white;
+    background-color: black;
+    font: 64px Didot, serif;
+    font-style: italic;
+    text-align: center;
+    outline-style: solid;
+    outline-color: pink;
+    outline-width: thick;
+}
+
+.foods {
+    font: 14px;
+    color: black;
+    background-color: white;
+    text-align: left;
+}
+
+.menu {
+    width: 300px;
+}
+
+.table {
+    padding: 15px;
+    text-align: left;
+    max-width: 100%;
+    font: 
+}
+
+.dish {
+    color: white;
+    background-color: black;
+    font: 28px Didot, serif;
+    text-align: center;
+    outline-style: solid;
+    outline-color: pink;
+    outline-width: thick;
+}
+
+.portrait {
+    width: 300px;
+    max-width: 100%;
+}
+
+.square {
+    width: 450px;
+    max-width: 100%;
+}
+
+.landscape {
+    width: 868px;
+    max-width: 100%;  
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#footer {
+    text-align: center;
+}
